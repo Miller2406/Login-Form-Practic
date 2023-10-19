@@ -123,3 +123,35 @@ h2 {
     padding: 0px 20px;
     margin: 20px 0px;
 }
+
+/* responsive */
+@media(max-width: 900px) {
+    .sign-card {
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        overflow: auto;
+        box-shadow: none;
+        border-radius: 0;
+        overflow: hidden;
+    }
+
+    .sign-in-con {
+        width: 100%;
+        height: 50%;
+        justify-content: end;
+        padding-bottom: 20px;
+    }
+
+    .sign-up-con {
+        width: 100%;
+        height: 100%;
+        justify-content: start;
+        padding-top: 20px;
+    }
+
+
+
+}
